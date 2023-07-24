@@ -1,0 +1,56 @@
+.login-form{
+    align-items: center; /*Deixando todos ps itens alinhados*/
+    display:flex; /* Deixando o display flexivél, porém ele fica a direita*/
+    flex-direction: column; /* deixando o display flex em colunas*/
+    height: 100vh; /*O "vh" seria o viewPort, à altura da janela 'visivél'*/
+   justify-content: center; /*Tudo justificado no Centro*/
+}
+
+.login_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login_header img{
+    width: 300px;
+}
+.login_header h1 {
+    color:#333;
+    font-size: 1,5 em;
+}
+
+.login_input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px; /*Criando um 'margem' para o botão, um espaço*/
+    max-width: 300px; /* O maximo dos 100% abaixo, será de 300 px definidos aqui*/
+    outline: none; /*retira a borda ao selecionar, no meu exemplo não ocorreu, mas para deixar certinho vou colocar, para lembrar no futuro*/
+    padding: 10px; /*basicamente a altura */
+    width: 100%; /*Sempre ocupar 100%, mas o max-width definido para 300px*/
+
+}
+
+.login_button{
+    background-color: rgb(224, 122, 122);
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;/*MUda  cursor ao passsar pelo botão*/
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+
+}
+
+.login_button:disabled {
+    /*Basicamente aqui será quando o botão estiver desabilitado, */
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}

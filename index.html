@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="./js/login.js"></script> <!--O 'defer' é usado para que todo o HTML seja lido, assim não parando para ler o JS, após ver todo o texto volta par ao JS.
+    Por esse motivo, alguns costumam colocar o arquivos JS no final, após ler todo o html-->
+
+    <title>Memory Game | Login</title>
+</head>
+<body>
+    
+    <form class="login-form">
+        <div class="login_header">
+            <img src="./images/index2.png" alt=""> <!--Imagem de apresentação do jogo "Cérebro" -->
+            <!-- <h1>Jogo da Memória</h1> -->
+        </div>
+        <input type="text" placeholder="Nome" class="login_input">
+        <button type="submit" class="login_button" disabled>Jogar</button><!--Aqui deixo o botão desabilitado, assim vai pegar o estilo desabilitado, mas quando for acionando mudará para a cor estilisada-->
+    </form>
+
+</body>
+</html>
